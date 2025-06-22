@@ -47,9 +47,6 @@ export default function Login() {
         </div>
       </div>
 
-      <script src="./js/login.js"></script>
-
-      <script src="./js/sweetalert2.min.js"></script>
     </article>
   );
 }
