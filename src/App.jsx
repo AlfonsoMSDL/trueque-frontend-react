@@ -1,10 +1,9 @@
-import Login from './pages/Login';
-import Register from './pages/user/Register';
+import AppRouter from './router/AppRouter';
 
 export default function App() {
 
   return (
-    <Register />
+    <AppRouter />
   )
 }
 
