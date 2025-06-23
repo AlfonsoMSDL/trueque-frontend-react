@@ -1,4 +1,5 @@
 import '../../styles/register.css';
+import BtnAccess from '../../components/buttons/BtnAccess';
 
 
 export default function Register() {
@@ -69,9 +70,7 @@ export default function Register() {
           />
         </div>
 
-        <button type="submit" id="btnRegistrar">
-          Registrar
-        </button>
+        <BtnAccess>Registrar</BtnAccess>
 
         <div className="iniciarSesion">
           <p>

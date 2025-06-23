@@ -1,4 +1,5 @@
 import '../styles/login.css';
+import BtnAccess from '../components/buttons/BtnAccess';
 
 export default function Login() {
   return (
@@ -34,10 +35,8 @@ export default function Login() {
           </label>
           <a href="#">¿Olvidó su contraseña?</a>
         </div>
-
-        <button type="submit" id="btnLogin">
-          Login
-        </button>
+        
+        <BtnAccess>Login</BtnAccess>
 
         <div className="registrar">
           <p>
