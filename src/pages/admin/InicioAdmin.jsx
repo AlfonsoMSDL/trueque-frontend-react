@@ -8,15 +8,8 @@ import GestionCategorias from "../../components/GestionCategorias";
 export default function InicioAdmin() {
   const [seccionActiva, setSeccionActiva] = useState("listar-usuarios");
 
-  const showSection = (id) => {
-    setSeccionActiva(id);
-  };
-
   const cerrarSesion = () => {};
 
-  const irAgregarCategoria = () => {
-    window.location.href = "agregarCategoria.html";
-  };
 
   return (
     <AdminLayout
