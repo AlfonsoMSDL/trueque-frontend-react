@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "../../styles/inicioAdmin.css";
 import AdminLayout from "../../layouts/AdminLayout";
+import BtnAgregar  from "../../components/buttons/BtnAgregar";
 
 export default function InicioAdmin() {
   const [seccionActiva, setSeccionActiva] = useState("listar-usuarios");
@@ -50,9 +51,7 @@ export default function InicioAdmin() {
         <section id="gestionar-categorias" className="section">
           <div id="addCategoria">
             <h2>Gestionar Categorías</h2>
-            <button id="btnagregar" onClick={irAgregarCategoria}>
-              <img src="./img/iconos/plus.png" alt="icono agregar" /> Agregar
-            </button>
+            <BtnAgregar nuevaPagina="/login"/>
           </div>
 
           <p>Aquí podrás gestionar las categorías de los productos.</p>

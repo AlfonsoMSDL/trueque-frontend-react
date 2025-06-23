@@ -1,0 +1,23 @@
+.btnAgregar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #18e01f;
+  color: white;
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  gap: 5px;
+}
+
+.btnAgregar svg {
+  width: 25px;
+  height: 25px;
+}
+
+.btnAgregar:hover {
+  background-color: #16c81c;
+  cursor: pointer;
+}
