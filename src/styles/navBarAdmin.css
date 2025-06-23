@@ -1,0 +1,28 @@
+/* Navegación */
+nav {
+  background-color: white;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #001f3f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
