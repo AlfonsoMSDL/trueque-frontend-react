@@ -1,5 +1,6 @@
 import '../styles/login.css';
 import BtnAccess from '../components/buttons/BtnAccess';
+import {Link} from 'react-router-dom';
 
 export default function Login() {
   return (
@@ -35,13 +36,13 @@ export default function Login() {
           </label>
           <a href="#">¿Olvidó su contraseña?</a>
         </div>
-        
+
         <BtnAccess>Login</BtnAccess>
 
         <div className="registrar">
           <p>
             ¿No tiene una cuenta?
-            <a href="registro.html">Registrar</a>
+            <Link to="/register">Registrar</Link>
           </p>
         </div>
       </div>

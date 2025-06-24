@@ -28,19 +28,9 @@
 }
 
 #nombreCompleto{
-    position: relative;
     display: flex;
     padding-bottom: 0%;
     height: 70px;
-}
-
-#Nombre{
-    width: 90%;
-
-}
-
-#Apellido{
-    width: 100%;
 }
 
 

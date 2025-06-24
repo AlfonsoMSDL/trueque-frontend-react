@@ -1,6 +1,6 @@
 import '../../styles/register.css';
 import BtnAccess from '../../components/buttons/BtnAccess';
-
+import {Link} from 'react-router-dom';
 
 export default function Register() {
   return (
@@ -74,7 +74,7 @@ export default function Register() {
 
         <div className="iniciarSesion">
           <p>
-            ¿Ya tiene una cuenta? <a href="login.html">Iniciar sesion</a>
+            ¿Ya tiene una cuenta? <Link to="/login">Iniciar sesion</Link>
           </p>
         </div>
       </div>
