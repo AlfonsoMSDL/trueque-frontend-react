@@ -70,4 +70,11 @@ tbody tr:hover {
   font-size: 32px;
 }
 
+.columIconActions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 

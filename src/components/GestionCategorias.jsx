@@ -1,6 +1,8 @@
 import "../styles/gestionCategorias.css";
 import { getAllCategorias } from "../service/categoriaService";
 import BtnAgregar from "../components/buttons/BtnAgregar";
+import BtnDelete from "../components/buttons/BtnDelete";
+import BtnEdit from "../components/buttons/BtnEdit";
 import { useEffect, useState } from "react";
 export default function GestionUsuarios() {
   const [listaCategorias, setListaCategorias] = useState([]);
@@ -41,8 +43,10 @@ export default function GestionUsuarios() {
                 <tr key={categoria.id}>
                   <td>{categoria.nombre}</td>
                   <td>{categoria.descripcion}</td>
-                  <td>⚙️</td>{" "}
-                  {/* Aquí podrías poner botones de editar/eliminar si quieres */}
+                  <td className="columIconActions">
+                    <BtnEdit></BtnEdit>
+                    <BtnDelete></BtnDelete>
+                </td>
                 </tr>
               ))}
             </tbody>
